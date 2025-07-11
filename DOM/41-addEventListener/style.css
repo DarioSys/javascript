@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: saddlebrown;
+}
+
+#contenedor {
+    background-color: beige;
+    width: 150px;
+    height: 150px; 
+    border: 2px solid black;
+    position: relative;   
+}
+#p{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 40%;   
+}

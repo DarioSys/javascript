@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body {
+    background-color: #000;
+}
+
+#contenedor {
+
+    background-color: #0f81df;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-size: 30px;
+    color: white;
+    border: 5px solid #c2961f;
+    border-radius: 5px; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#cambiar {
+    
+    background-color: #c45930;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Verdana;
+    font-size: 30px;
+    color: black;
+    border: 5px solid white;
+    border-radius: 5%; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;   
+}
+/*Button es un elemento en linea que acepta las propiedades width y height*/
+.boton  {
+
+    width: 100px;
+    height: 40px;
+    padding: 2px;
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.boton:hover {
+    background-color: #bebc41;
+} 
+
+.verde {
+    background-color: #086108;
+}
+
+.rojo {
+    background-color: #e60935;
+}
+
+.azul {
+    background-color: #0f81df;
+}
+
