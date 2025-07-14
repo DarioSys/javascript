@@ -1,6 +1,6 @@
-// ¿Qué función conviene utilizar más la primera o las otras?
+// Selección del DIV contenedor.
 const contenedor = document.getElementsByTagName('div');
-//
+// Añadiendo eventos
 contenedor[0].addEventListener('click', function blue(){
     contenedor[0].style.backgroundColor = 'blue';
 });
